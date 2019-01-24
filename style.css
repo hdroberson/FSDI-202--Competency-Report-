@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+#adminPage {
+    background-color:  rgb(108, 187, 247);   
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.capture-form {
+    width: 400px;
+    border: 1px solid rgb(230, 241, 245);
+    background-color: rgb(108, 187, 247);
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: right;
+}
+
+.capture-form input, select {
+    margin-left: 10px;
+    width:  225px;
+    float: right;
+}
+
+#btnSave {
+    color: gray;
+    padding: 5px;
+    background-color: rgb(22, 20, 63);
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    float: right;
+    margin-right: 60px;
+}
+
+.item {
+    display: inline-block;
+    max-width: 225px;
+    max-height: 300px;
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item img {
+    display: block;
+    width: 175px;
+    height: 180px;
+    padding-bottom: 20px;
+}
+
+
+.item .lblCode {
+    display: block;
+}
+
+
+.item .lblTitle {
+    display: block;
+    font-size: 1rem;
+}
+
+li a:hover {
+    border-left: solid 3px lightgray;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: dimgrey;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    max-width: auto;
+    margin-top: 60px;
+}
+
+
